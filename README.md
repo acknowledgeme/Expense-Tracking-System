@@ -10,7 +10,7 @@ An Expense Management System built with a **Streamlit frontend** and a **FastAPI
 - Monthly expense analytics
 - Interactive dashboard using Streamlit
 - RESTful APIs using FastAPI
-- ✅ Download expense reports as **CSV**
+- Download expense reports as **CSV**
 - Test cases for backend and frontend
 
 ---
@@ -39,18 +39,18 @@ expense-management-system/
 ## Setup Instructions
 
 ### 
-1️⃣ Clone the repository
+1️) Clone the repository
 ```bash
 git clone https://github.com/yourusername/expense-management-system.git
 cd expense-management-system
 
-2️⃣ Install dependencies
+2️) Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the FastAPI backend
+3️) Run the FastAPI backend
 uvicorn server.server:app --reload
 
-4️⃣ Run the Streamlit frontend
+4️) Run the Streamlit frontend
 streamlit run frontend/app.py
 
 ## CSV Download
